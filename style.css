@@ -1,0 +1,26 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+.scroll-container {
+    height: 100vh;
+    width: 100vw;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+canvas {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.spacer {
+    height: 500vh; /* Adjust for more/less scroll duration */
+}
